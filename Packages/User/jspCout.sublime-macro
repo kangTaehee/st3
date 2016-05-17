@@ -1,0 +1,79 @@
+[
+	{
+		"args": null,
+		"command": "cut"
+	},
+	{
+		"args":
+		{
+			"characters": "<c:ou"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "t"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " vlu"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "a"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "alue="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "/>"
+		},
+		"command": "insert"
+	}
+]

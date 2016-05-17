@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="totalCount"><em>총 <em>70</em>건</em> | <em>1/12</em> Page</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>totalCount</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

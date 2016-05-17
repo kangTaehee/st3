@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #FFA;
+       color: #${1:000};
+}
+/* Works in Safari */
+::selection {
+       background-color: #FFA;
+       color: #${1:000};
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>selection</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

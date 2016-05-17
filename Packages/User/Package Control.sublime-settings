@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Base64 Fold",
+		"Emmet",
+		"Focus File on Sidebar",
+		"IMESupport",
+		"LiveReload",
+		"Material Theme",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"Theme - DC",
+		"Theme - Soda",
+		"TortoiseSVN"
+	]
+}

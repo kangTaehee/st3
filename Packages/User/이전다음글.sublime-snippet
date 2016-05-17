@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="PNlist">
+	<dl>
+		<dt>이전글</dt>
+		<dd><a href="">참신한  로맨스코미디 장르 스토리를 찾고 있습니다.</a></dd>
+	</dl>
+	<dl>
+		<dt>다음글</dt>
+		<dd><a href="">참신한  로맨스코미디 장르 스토리를 찾고 있습니다.</a></dd>
+	</dl>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>PNlist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

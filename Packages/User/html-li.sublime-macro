@@ -1,0 +1,21 @@
+[
+	{
+		"args": null,
+		"command": "expand_as_you_type"
+	},
+	{
+		"args":
+		{
+			"panel_input": "li*"
+		},
+		"command": "expand_as_you_type"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "bol"
+		},
+		"command": "move_to"
+	}
+]

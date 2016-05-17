@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * [tagetShow description]
+ * @type {[type]}
+ * sample html
+<button type="button" data-targetView='detailsActivity' class="view-ctrl on" 	title=" 보기">메뉴1</button>
+<button type="button" data-targetView='comentView' 		class="view-ctrl"  		title=" 보기">메뉴2</button>
+ * emmet code
+ button[type=button data-targetView title].view-ctrl*
+ */
+jQuery(function(){
+	var tagetShow = jQuery('[data-targetView]')
+	jQuery(tagetShow).each(function(index) {
+		jQuery(this).bind('click', function() {
+			tagetShow.removeClass('on');
+			jQuery(this).addClass('on');
+			for (var i = 0; i < tagetShow.length; i++) {
+				jQuery('#'+jQuery(tagetShow[i]).attr('data-targetView')).hide();
+			};
+			jQuery('#'+jQuery(this).attr('data-targetView')).show();
+			console.log(jQuery('#'+jQuery(this).attr('data-targetView')))
+		});
+	});
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

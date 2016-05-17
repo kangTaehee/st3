@@ -1,0 +1,43 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete": true,
+	"folder_exclude_patterns":
+	[
+		"crosseditor",
+		"ckeditor",
+		"ckfinder",
+		"ckSample",
+		"files",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_gsdata_",
+		".sass-cache",
+		".metadata",
+		"lib"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"D:\\WORK\\fintech\\src\\main\\webapp\\crosseditor*",
+		"*.log",
+		"D:\\newBris2014\\src\\main\\webapp\\css*"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"match_brackets_angle": true,
+	"overlay_scroll_bars": "enabled",
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "DC_3.sublime-theme",
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": true
+}

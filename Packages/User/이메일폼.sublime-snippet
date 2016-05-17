@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<input name="ntcrEmail1" id="ntcrEmail1" type="text" title="{$1이메일} 아이디" value="" class="emailId" />
+@
+<input name="ntcrEmail2" id="ntcrEmail2" type="text" title="{$1이메일} 주소" value="" readonly="readonly" class="emailAddr emailDomainForm" />
+
+<label for="sr_email_more" class="hidden">{$1이메일} 도메인 선택</label>
+<select id="sr_email_more" name="" class="input_select select_email_js" title="직접입력 선택시 자동활성화&amp;포커스 이동">
+	<option selected>메일주소선택</option>
+	<option value   ="gmail.com">gmail.com</option>
+	<option value   ="naver.com">naver.com</option>
+	<option value   ="hanmail.net">hanmail.net</option>
+	<option value   ="daum.net">daum.net</option>
+	<option value   ="hotmail.com">hotmail.com</option>
+	<option value   ="nate.com">nate.com</option>
+	<option value   ="yahoo.co.kr">yahoo.co.kr</option>
+	<option value   ="emaildomain_false">직접입력</option>
+</select>
+<script>
+jQuery(function(){
+	\$('select.select_email_js').change(function() {
+		if (\$(this).val()=='emaildomain_false') {
+			\$('.emailDomainForm:text[name=ntcrEmail2]').val('');
+			\$('.emailDomainForm').attr('readonly',false).focus();
+		}else{
+			\$('.emailDomainForm:text[name=ntcrEmail2]').val('');
+			\$('.emailDomainForm:text[name=ntcrEmail2]').val(\$(this).val());
+			\$('.emailDomainForm').attr('readonly',true)
+		}
+	});
+});
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>email</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

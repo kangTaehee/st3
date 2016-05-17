@@ -1,0 +1,19 @@
+[
+	{ "keys"    : ["ctrl+b"], "command": "open_in_browser" },
+	// { "keys" : [ "ctrl+b" ], "command": "view_in_browser", "args": { "browser": "chrome" } },
+	{ "keys"    : ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+	{ "keys"    : ["alt+keypad1"], "command": "run_macro_file", "args": {"file": "Packages/User/html-li.sublime-macro"} },
+	{ "keys"    : ["ctrl+i"], "command": "run_macro_file", "args": {"file": "Packages/User/html-img.sublime-macro"} },
+	{ "keys"    : ["ctrl+1"], "command": "run_macro_file", "args": {"file": "Packages/User/jspCout.sublime-macro"} },
+	{ "keys"    : ["alt+keypad2"], "command": "run_macro_file", "args": {"file": "Packages/User/html-parentLiAppend.sublime-macro"} },
+	{ "keys"    : ["alt+keypad3"], "command": "autoprefixer" },
+	{ "keys"    : ["f6"], "command": "focus_file_on_sidebar" },
+	{ "keys"    : ["ctrl+alt+q"], "command": "insert_snippet", "args": { "name": "Packages/st3-jstl-snippet-autocomplete-master/jstl-comment.sublime-snippet" } },
+	{ "keys"    : ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+	{ "keys"    : ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+	{ "keys"    : ["shift+ctrl+f2"], "args"      : {"action"    : "reflect_css_value"}, "command"   : "run_emmet_action", "context"   : [{"key"       : "emmet_action_enabled.reflect_css_value"} ] },
+	{ "keys"	: ["ctrl+alt+a"], "command": "align_tab" , "args" : {"live_preview" : true}},
+	{ "keys"	: ["ctrl+alt+."], "command": "align_tab" , "args" : {"user_input" : "=/l0f"}},
+	{ "keys"	: ["ctrl+alt+["], "command": "align_tab" , "args" : {"user_input" : "{/l0f"}},
+	{ "keys"	: ["f5"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}}
+]

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<c:if test="\${fn:length(${1:this}) == 0}">${2:snippet}</c:if>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jstlif</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

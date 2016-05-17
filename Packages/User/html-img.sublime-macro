@@ -1,0 +1,61 @@
+[
+	{
+		"args":
+		{
+			"characters": "img"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "expand_abbreviation_by_tab"
+	},
+	{
+		"args":
+		{
+			"characters": "/mobile"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "Eng/images"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "/contents"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "/"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	},
+	{
+		"args":
+		{
+			"characters": ".gif"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "words",
+			"extend": true,
+			"forward": false
+		},
+		"command": "move"
+	}
+]

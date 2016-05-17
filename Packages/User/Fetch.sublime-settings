@@ -1,0 +1,31 @@
+{
+	"files":
+	{
+		".css common - by unpl": "https://gist.githubusercontent.com/taeheekang/207d79d8df151d5897e6/raw/d8dba20b4792feddd6297380d378db5b4cc272e6/",
+		".css normalize": "https://necolas.github.io/normalize.css/3.0.2/normalize.css",
+		".html skip": "https://raw.githubusercontent.com/taeheekang/git/master/skip.html",
+		".html subLayoutDefault": "https://gist.githubusercontent.com/taeheekang/3062499d937d33da6edf/raw/9c36f65a2a7fc3afb35229d30e5b03919cd2458d/sublayout",
+		".html viewSizeCtrl": "https://raw.githubusercontent.com/taeheekang/git/master/viewSizeCtrl.html",
+		".html_carlender": "https://gist.githubusercontent.com/taeheekang/d0e97415bd280103e900/raw/1c64aa9cbd2400d8228e0508057499d0fae9a0b3/calender%2520link%2520type",
+		".js AsideScroll": "https://gist.githubusercontent.com/taeheekang/e95be592d858165ecabb/raw/78c7c640e26334742a74dd36fa33204749f3ed83/AsideScroll",
+		".js Swiper": "https://gist.githubusercontent.com/taeheekang/5c8d2d9d3c07f558772e/raw/5da5f8b4f74bbbba11e4fe561d9eedebb1251e25/Swiper",
+		".js autoTableSummary": "https://gist.githubusercontent.com/taeheekang/df4085bf152bf417e4b5/raw/0fbbf397a46abbedf37f3b5a9395873c9ae3e033/autotablesummary.js",
+		".js carouFredSelSetup": "https://gist.githubusercontent.com/taeheekang/500416205e5bb5ceac17/raw/03a119b7bbf4745b3afcdf6bf045c85c514ed8e2/carouFredSelSetup",
+		".js datebtnAddEvent": "https://gist.githubusercontent.com/taeheekang/b61cb43f336ee07fed83/raw/a0f856c9e21474ae1101cb2638bdf121be69bfa5/datebtnAddEvent",
+		".js ie7": "https://gist.githubusercontent.com/taeheekang/cd276cc4804e17711dd9/raw/e2857bab9fc2c19184519bbb07022ae12c884827/ie7%2520style",
+		".js ie7 zoom": "https://raw.githubusercontent.com/taeheekang/git/master/js%20ie7zoom",
+		".js ie8 li to first in table": "https://gist.githubusercontent.com/taeheekang/7449ecf36353a135e5d2/raw/ad47af23c421b88c8648105b9aa43a68b919ce0b/bug_fix.js",
+		".js jquery": "http://code.jquery.com/jquery.min.js",
+		".js placeholder": "https://gist.githubusercontent.com/taeheekang/46564826826a1fa11040/raw/b8634ddd2af9af0beca04b159c1264ffa79148f0/placeholder",
+		".js rollover": "https://gist.githubusercontent.com/taeheekang/72d005929f792cccb513/raw/3c9771ce6c968b4e4fae1c14fec04433c6c1e5c5/rollover",
+		".js viewSizeControl": "https://raw.githubusercontent.com/taeheekang/git/master/viewSizeCtrl.js",
+		".js viewSizeCtrl": "https://raw.githubusercontent.com/taeheekang/git/master/viewSizeCtrl.js",
+		".js webkitSelect": "https://gist.githubusercontent.com/taeheekang/dbc3912224f9952cfc91/raw/9dd3708a999839777388591995b2c1bc209373b2/webkitSelect",
+		".jsp souceUrl": "https://gist.githubusercontent.com/taeheekang/980177081d73a3cb230b/raw/71e130ac27208c75ec52b7b84708badb8136cb2d/souceUrl",
+		"jquery": "http://code.jquery.com/jquery.min.js"
+	},
+	"packages":
+	{
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
+	}
+}

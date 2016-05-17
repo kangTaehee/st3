@@ -1,0 +1,99 @@
+<snippet>
+	<content><![CDATA[
+<div class="bdList">
+	<table class="table">
+		<caption>000 목록</caption>
+		<thead>
+			<tr>
+				<th scope="col" class="no">번호</th>
+				<th scope="col" class="">제목</th>
+				<th scope="col" class="name">작성자</th>
+				<th scope="col" class="date">등록일</th>
+				<th scope="col" class="count">조회</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>공지</td>
+				<td class="tit"><a href="">스토리 요청 글 등록시 이용안내 및 유의사항</a></td>
+				<td>관리자</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td class="tit">
+					<a href="">
+						참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다. [2]
+						<span class="ico new">새글</span>
+					</a>
+				</td>
+				<td>남궁길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다. [3]</a></td>
+				<td>홍길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홍길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홍길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홈XX</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홍길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홍길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홍길동</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td class="tit"><a href="">참신한&nbsp; 로맨스코미디 장르 스토리를 찾고 있습니다.</a></td>
+				<td>홈XX</td>
+				<td>2016-04-30</td>
+				<td>67</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>noticeABordListHtml</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

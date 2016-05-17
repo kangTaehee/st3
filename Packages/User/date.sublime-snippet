@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<span>
+	일자
+	<input id="sdate" name="sdate" class="sdate" title="검색기간 시작일" value="" type="text">
+	~
+	<input id="edate" name="edate" class="edate" title="검색기간 종료일" value="" type="text">
+</span>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>검색기간 html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

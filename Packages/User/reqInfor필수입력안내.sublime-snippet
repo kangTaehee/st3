@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="reqInfor"><span class="req"><span>필수입력</span></span>표시 항목은 필수 입력 항목입니다.</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reqInfor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

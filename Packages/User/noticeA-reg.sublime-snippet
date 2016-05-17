@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<form action="">
+	<div class="reqInfor"><span class="req"><span>필수입력</span></span>은 필수입력 항목입니다</div>
+	<div class="view">
+		<dl>
+			<dt><label for="title"><span class="req"><span>필수입력</span></span>제목</label></dt>
+			<dd><input id="title" class="w100p" type="text"></dd>
+		</dl>
+		<dl>
+			<dt>작성자</dt>
+			<dd>홍길동</dd>
+		</dl>
+		<dl>
+			<dt><label for="contentArea"><span class="req"><span>필수입력</span></span>내용</label></dt>
+			<dd><textarea name="" id="contentArea" cols="30" rows="10" class="w100p"></textarea></dd>
+		</dl>
+		<dl>
+			<dt>첨부파일</dt>
+			<dd>
+				<div class="fileAdd">
+					<div>
+						<input name="" id="" title="첨부파일 1" type="file">
+						<input name="" id="" title="첨부파일 2" type="file">
+					</div>
+					<div class="ctrl">
+						<button type="button"><span class="hide">첨부파일폼</span> 추가</button>
+						<button type="button"><span class="hide">첨부파일폼</span> 삭제</button>
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+	<div class="btnSet c">
+		<input value="저장" type="submit">
+		<a href="">취소</a>
+	</div>
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>noticeA-reg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<div class="sh">
+	<form action="">
+		<fieldset>
+			<legend>000 목록 검색</legend>
+			<span>
+				일자
+				<input id="sdate" name="sdate" class="sdate" title="검색기간 시작일" value="" type="text">
+				~
+				<input id="edate" name="edate" class="edate" title="검색기간 종료일" value="" type="text">
+			</span>
+			<label> 검색어 <input name="" id="" value="" type="text" class="keyword"> </label>
+			<input value="검색" class="search" type="submit">
+		</fieldset>
+	</form>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>검색html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
