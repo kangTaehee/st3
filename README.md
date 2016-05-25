@@ -9,9 +9,11 @@
 	LiveReload
 	Material Theme
 	Nettuts+ Fetch
-	Package Control
 	PackageResourceViewer
 	SideBarEnhancements
 	Theme - DC
 	Theme - Soda
 	TortoiseSVN
+	Quick File Creator
+		파일 생성
+		https://packagecontrol.io/packages/Quick%20File%20Creator
