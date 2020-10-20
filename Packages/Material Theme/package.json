@@ -5,7 +5,7 @@
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.3.1",
     "gulp-concat-json": "^1.0.0",
     "gulp-concat-json2js": "^0.1.0",
@@ -18,7 +18,7 @@
     "gulp-util": "^3.0.7"
   },
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.3.1",
     "gulp-concat-json": "^1.0.0",
     "gulp-concat-json2js": "^0.1.0",
