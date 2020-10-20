@@ -5,7 +5,7 @@
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-concat-json": "^1.0.0",
     "gulp-concat-json2js": "^0.1.0",
@@ -15,10 +15,11 @@
     "path": "^0.12.7",
     "gulp-wrap": "^0.15.0",
     "run-sequence": "^1.1.5",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "snyk": "^1.373.1"
   },
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-concat-json": "^1.0.0",
     "gulp-concat-json2js": "^0.1.0",
@@ -31,7 +32,9 @@
     "run-sequence": "^1.1.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -49,5 +52,6 @@
   "bugs": {
     "url": "https://github.com/equinusocio/material-theme/issues"
   },
-  "homepage": "http://equinusocio.github.io/material-theme/"
+  "homepage": "http://equinusocio.github.io/material-theme/",
+  "snyk": true
 }
